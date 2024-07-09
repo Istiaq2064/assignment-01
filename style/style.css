@@ -15,41 +15,31 @@ body{
 .bannar-container{
     height: 652px;
     width: 1440px;
-    border: 2px solid red;
     background-image:url('../assets/Hero-bg.png');
 }
 
 .bannar-text-conteiner{
     height: 581px;
     width: 998px;
-    border: 2px solid yellow;
     margin: 26px 221px 45px 221px;
     text-align: center;
 
 }
 
-.bannar-image-container{
-    height: 240px;
-    width: 240.28px;
-    margin: 0 378.86px 341px 378.86px;
-    border: 2px solid black;
-    position: absolute;
-
+.btn-primary{
+    width: 244px;
+    height: 65px;
+    background-color: #0D1321;
+    color: #fff;
+    font-size: 20px;
 }
 
-.bannar-title{
-    height: 309px;
+
+.main-container{
     width: 998px;
-    border: 2px solid black;
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
+    height: 309px;
 
-   
 }
-
 
       /* main section style */
 
@@ -193,7 +183,6 @@ p{
 .current-target{
     width: 1140px;
     height: 460px;
-    border: 9px solid red;
     margin: 121px 150px 111px 150px;
 }
 
@@ -202,53 +191,47 @@ p{
     height: 113px;
     margin: 0 auto;
     text-align: center;
-    border: 2px solid blue;
+ 
 }
 .skills-container{
     width: 1140px;
     height: 299px;
-    border: 2px solid yellow;
     display: flex;
 
 }
 .skills-one{
     width: 475px;
     height: 299px;
-    border: 3px solid black;
-    margin: 42px;
+    background-color:rgba(235, 235, 235, 1);
+    margin: 40px;
 }
 .skills-two{
     width: 475px;
     height: 299px;
-    border: 3px solid black;
-    margin: 42px;
+    background-color: rgba(235, 235, 235, 1);
+    margin: 40px;
 }
 .skills-three{
     width: 475px;
     height: 299px;
-    border: 3px solid black;
-    margin: 42px;
+    background-color:rgba(255, 223, 0, 0.05);
+    margin: 40px;
 }
-.skills, ancore{
-    margin-top:24px;
-    color: red;
 
-}
 
 .footer-text{
     width:1140px;
     height:313px ;
     margin: 49px 150px 180px 150px;
-    border: 9px solid rgb(35, 5, 157);
     background-image: url('/assets/handshake.jpg');
+    border: 1px solid black;
+    border-radius:16px;
 }
 .footer-text-title{
-    
-    width:1140px;
+    width:1050px;
     height: 185px;
-    margin: 64px 48px 64px 48px;
-    border: 9px solid rgb(198, 197, 205);
     text-align: center;
+    margin: 64px 48px 64px 48px;
 }
 .footer-text-title p{
     color: #fff;

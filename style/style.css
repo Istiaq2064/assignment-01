@@ -67,14 +67,6 @@ body{
     text-align: center;
 }
 
-..first-title h1{
-    font-size: 32px;
-    color: #0D1321;
-}
-.first-title p{
-    font-size: 16px;
-    color: #0D1321;
-}
 .text-and-image1{
     width: 945px;
     height: 336px;
@@ -135,7 +127,7 @@ body{
     height: 219px;
     margin: 10.5px 101px 10.5px 32px;
 }
-.second-image-content h3{
+.second-image-content h2{
     font-size: 24px;
     color:#0D1321 ;
 }
@@ -152,4 +144,43 @@ body{
 .btn{
     color: #0D1321;
     padding:12px 20px;
+}
+
+
+/* inspiration side style */
+
+.inspiration{
+    width: 1440px;
+    height: 775px;
+    margin: 94px 152px 151px 148px;
+}
+
+
+.inspiration-title{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 32px;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+p{
+    color: #0D1321;
+    font-size: 16px;
+}
+
+.inspiration-video{
+    width: 1440px;
+    height: 615px;
+    margin-top: 32px;
+}
+
+.inspiration-video-title video{
+    width: 1200px;
+    height: 550px;
+    margin:40px;
 }

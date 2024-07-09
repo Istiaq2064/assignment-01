@@ -6,6 +6,11 @@ body{
     font-weight: <weight>;
     font-style: normal;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
             /* bannar side style */
 .bannar-container{
     height: 652px;
@@ -183,4 +188,88 @@ p{
     width: 1200px;
     height: 550px;
     margin:40px;
+}
+
+.current-target{
+    width: 1140px;
+    height: 460px;
+    border: 9px solid red;
+    margin: 121px 150px 111px 150px;
+}
+
+.current-target-title{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid blue;
+}
+.skills-container{
+    width: 1140px;
+    height: 299px;
+    border: 2px solid yellow;
+    display: flex;
+
+}
+.skills-one{
+    width: 475px;
+    height: 299px;
+    border: 3px solid black;
+    margin: 42px;
+}
+.skills-two{
+    width: 475px;
+    height: 299px;
+    border: 3px solid black;
+    margin: 42px;
+}
+.skills-three{
+    width: 475px;
+    height: 299px;
+    border: 3px solid black;
+    margin: 42px;
+}
+.skills, ancore{
+    margin-top:24px;
+    color: red;
+
+}
+
+.footer-text{
+    width:1140px;
+    height:313px ;
+    margin: 49px 150px 180px 150px;
+    border: 9px solid rgb(35, 5, 157);
+    background-image: url('/assets/handshake.jpg');
+}
+.footer-text-title{
+    
+    width:1140px;
+    height: 185px;
+    margin: 64px 48px 64px 48px;
+    border: 9px solid rgb(198, 197, 205);
+    text-align: center;
+}
+.footer-text-title p{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.footer-text-title h1{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.button{
+    text-align: center;
+}
+.input-btn{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+}
+.input-submit{
+    width: 120px;
+    height: 57px;
+    margin:17px 20px;
+    border-radius: 8px;
 }

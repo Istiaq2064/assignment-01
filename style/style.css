@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+            /* bannar side style */
+.bannar-container{
+    height: 652px;
+    width: 1440px;
+    border: 2px solid red;
+    background-image:url('../assets/Hero-bg.png');
+}
+
+.bannar-text-conteiner{
+    height: 581px;
+    width: 998px;
+    border: 2px solid yellow;
+    margin: 26px 221px 45px 221px;
+    text-align: center;
+
+}
+
+.bannar-image-container{
+    height: 240px;
+    width: 240.28px;
+    margin: 0 378.86px 341px 378.86px;
+    border: 2px solid black;
+    position: absolute;
+
+}
+
+.bannar-title{
+    height: 309px;
+    width: 998px;
+    border: 2px solid black;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+   
+}
+
+
+      /* main section style */
+
+.text-container{
+    width: 1140px;
+    height: 1393px;
+    margin: 74px 152px 90px 148px;
+}
+
+.text-content{
+    width: 946px;
+    height: 1233px;
+    margin: 80px 97px;
+}
+
+.first-title{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+..first-title h1{
+    font-size: 32px;
+    color: #0D1321;
+}
+.first-title p{
+    font-size: 16px;
+    color: #0D1321;
+}
+.text-and-image1{
+    width: 945px;
+    height: 336px;
+    margin-top: 48px;
+
+}
+.text-and-image2{
+    width: 945px;
+    height: 336px;
+    margin-top: 32px;
+
+}
+.text-and-image3{
+    width: 945px;
+    height: 336px;
+    margin-top: 32px;
+
+}
+
+.box1{
+    width: 850px;
+    height: 240px;
+    margin: 48px;
+    display: flex;
+
+
+}
+
+.box2{
+    width: 850px;
+    height: 240px;
+    margin: 48px;
+    display: flex;
+}
+
+.box3{
+    width: 850px;
+    height: 240px;
+    margin: 48px;
+    display: flex;
+}
+.first-text-title{
+    width: 477px;
+    height: 219px;
+    margin: 10.5px 0 10.5px 0;
+}
+.first-image-content{
+    width: 274.17px;
+    height: 240px;
+    margin-left: 98.83px;
+}
+.second-text-title{
+    width: 240px;
+    height: 240px;
+}
+.second-image-content{
+    width: 477px;
+    height: 219px;
+    margin: 10.5px 101px 10.5px 32px;
+}
+.second-image-content h3{
+    font-size: 24px;
+    color:#0D1321 ;
+}
+.third-text-title{
+    width: 477px;
+    height: 219px;
+    margin: 10.5px 0 10.5px 0;
+}
+.third-image-content{
+    width: 274.17px;
+    height: 240px;
+    margin-left: 98.83px;
+}
+.btn{
+    color: #0D1321;
+    padding:12px 20px;
+}

@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+body {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-         /* bannar side style */
-.bannar-container{
+
+/* bannar side style */
+
+.bannar-container {
     min-height: 652px;
     max-width: 1440px;
-    background-image:url('../assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
 }
 
-.bannar-text-conteiner{
+.bannar-text-conteiner {
     height: 581px;
     width: 998px;
     margin: 26px 221px 45px 221px;
@@ -26,7 +28,7 @@ body{
 
 }
 
-.btn-primary{
+.btn-primary {
     width: 244px;
     height: 65px;
     background-color: #0D1321;
@@ -36,52 +38,54 @@ body{
 }
 
 
-.main-container{
+.main-container {
     width: 998px;
     height: 309px;
 }
 
-      /* main section style */
+/* main section style */
 
-.text-container{
+.text-container {
     max-width: 1140px;
     min-height: 1393px;
     margin: 74px 152px 90px 148px;
 }
 
-.text-content{
+.text-content {
     width: 946px;
     height: 1233px;
     margin: 80px 97px;
 }
 
-.first-title{
+.first-title {
     width: 852px;
     height: 113px;
     margin: 0 auto;
     text-align: center;
 }
 
-.text-and-image1{
+.text-and-image1 {
     width: 945px;
     height: 336px;
     margin-top: 48px;
 
 }
-.text-and-image2{
+
+.text-and-image2 {
     width: 945px;
     height: 336px;
     margin-top: 32px;
 
 }
-.text-and-image3{
+
+.text-and-image3 {
     width: 945px;
     height: 336px;
     margin-top: 32px;
 
 }
 
-.box1{
+.box1 {
     width: 850px;
     height: 240px;
     margin: 48px;
@@ -90,196 +94,223 @@ body{
 
 }
 
-.box2{
+.box2 {
     width: 850px;
     height: 240px;
     margin: 48px;
     display: flex;
 }
 
-.box3{
+.box3 {
     width: 850px;
     height: 240px;
     margin: 48px;
     display: flex;
 }
-.first-text-title{
+
+.first-text-title {
     width: 477px;
     height: 219px;
     margin: 10.5px 0 10.5px 0;
 }
-.first-image-content{
+
+.first-image-content {
     width: 274.17px;
     height: 240px;
     margin-left: 98.83px;
 }
-.second-text-title{
+
+.second-text-title {
     width: 240px;
     height: 240px;
 }
-.second-image-content{
+
+.second-image-content {
     width: 477px;
     height: 219px;
     margin: 10.5px 101px 10.5px 32px;
 }
-.second-image-content h2{
+
+.second-image-content h2 {
     font-size: 24px;
-    color:#0D1321 ;
+    color: #0D1321;
 }
-.third-text-title{
+
+.third-text-title {
     width: 477px;
     height: 219px;
     margin: 10.5px 0 10.5px 0;
 }
-.third-image-content{
+
+.third-image-content {
     width: 274.17px;
     height: 240px;
     margin-left: 98.83px;
 }
-.btn{
+
+.btn {
     color: #0D1321;
-    padding:12px 20px;
+    padding: 12px 20px;
 }
 
 
 /* inspiration side style */
 
-.inspiration{
-    max-width: ;width: 1140px;
+.inspiration {
+    max-width: ;
+    width: 1140px;
     min-height: 775px;
     margin: 94px 152px 151px 140px;
 }
 
 
-.inspiration-title{
+.inspiration-title {
     width: 852px;
     height: 113px;
     margin: 0 auto;
     text-align: center;
 }
 
-h1{
+h1 {
     font-size: 32px;
     color: #0D1321;
     margin-bottom: 24px;
 }
-p{
+
+p {
     color: #0D1321;
     font-size: 16px;
 }
 
-.inspiration-video{
+.inspiration-video {
     width: 1140px;
     height: 615px;
     margin-top: 32px;
 }
 
-.inspiration-video-title video{
+.inspiration-video-title video {
     width: 1076px;
     height: 550px;
     padding-left: 30px;
 }
+            /* current target style */
 
-.current-target{
+.current-target {
     width: 1140px;
     height: 460px;
     margin: 121px 150px 111px 150px;
+
 }
 
-.current-target-title{
+.current-target-title {
     width: 852px;
     height: 113px;
     margin: 0 auto;
     text-align: center;
- 
+
 }
-.skills-container{
+
+.skills-container {
     width: 1140px;
     height: 299px;
     display: flex;
+    padding-top: 40px;
 
 }
-.skills-one{
-    width: 475px;
-    height: 299px;
-    background-color:rgba(235, 235, 235, 1);
-    padding-left:40px;
-    padding-top: 40px;
-    margin-right: 24px;
-}
-.skills-two{
+
+.skills-one {
     width: 475px;
     height: 299px;
     background-color: rgba(235, 235, 235, 1);
-    padding-left:40px;
-    padding-top: 40px;
-    margin-right: 24px;
-}
-.skills-three{
-    width: 475px;
-    height: 299px;
-    background-color:rgba(255, 223, 0, 0.05);
-    padding-left:40px;
+    padding-left: 40px;
     padding-top: 40px;
     margin-right: 24px;
 }
 
-      /* footer section */
-      
-.footer-text{
-    max-width:1140px;
-    min-height:313px ;
+.skills-two {
+    width: 475px;
+    height: 299px;
+    background-color: rgba(235, 235, 235, 1);
+    padding-left: 40px;
+    padding-top: 40px;
+    margin-right: 24px;
+}
+
+.skills-three {
+    width: 475px;
+    height: 299px;
+    background-color: rgba(255, 223, 0, 0.05);
+    padding-left: 40px;
+    padding-top: 40px;
+    margin-right: 24px;
+}
+
+/* footer section */
+
+.footer-text {
+    max-width: 1140px;
+    min-height: 313px;
     margin: 49px 150px 180px 150px;
     background-image: url('/assets/handshake.jpg');
     border: 1px solid black;
-    border-radius:16px;
+    border-radius: 16px;
 }
-.footer-text-title{
-    width:1050px;
+
+.footer-text-title {
+    width: 1050px;
     height: 185px;
     text-align: center;
     margin: 64px 48px 64px 48px;
 }
-.footer-text-title p{
+
+.footer-text-title p {
     color: #fff;
     font-size: 16px;
     text-align: center;
 }
-.footer-text-title h1{
+
+.footer-text-title h1 {
     font-size: 32px;
     color: #FFFFFF;
 }
-.button{
+
+.button {
     text-align: center;
 }
-.input-btn{
+
+.input-btn {
     width: 548px;
     height: 57px;
     border-radius: 8px;
 }
-.input-submit{
+
+.input-submit {
     width: 120px;
     height: 57px;
-    margin:17px 20px;
+    margin: 17px 20px;
     border-radius: 8px;
 }
-    /* icons and link tag style */
-.icons-container{
+
+/* icons and link tag style */
+.icons-container {
     max-width: 1440px;
     min-height: 100px;
 }
 
-.icons-text-container{
+.icons-text-container {
     width: 1140px;
     height: 36px;
     margin: 32px 150px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
 
-.icons-text-container li > a{
+.icons-text-container li>a {
     text-decoration: none;
+}
 
+.icons-text-container li {
+    list-style-type: none;
 }

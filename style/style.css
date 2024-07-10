@@ -219,7 +219,8 @@ p{
     margin: 40px;
 }
 
-
+      /* footer section */
+      
 .footer-text{
     width:1140px;
     height:313px ;
@@ -256,4 +257,24 @@ p{
     height: 57px;
     margin:17px 20px;
     border-radius: 8px;
+}
+
+.icons-container{
+    width: 1440px;
+    height: 100px;
+}
+
+.icons-text-container{
+    width: 1140px;
+    height: 36px;
+    margin: 32px 150px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.icons-text-container li > a{
+    text-decoration: none;
+
 }

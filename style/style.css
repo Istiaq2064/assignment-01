@@ -251,7 +251,7 @@ p {
     max-width: 1140px;
     min-height: 313px;
     margin: 49px 150px 180px 150px;
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('../assets/handshake.jpg');
     border: 1px solid black;
     border-radius: 16px;
 }
